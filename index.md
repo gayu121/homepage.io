@@ -1,75 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>个人主页</title>
-    <script type="text/javascript">
-        var currentTime = new Date(); //获取Date对象的一个实例
-        var hour = currentTime.getHours(); //获取小时数
-        var minu = currentTime.getMinutes(); //获取分钟数
-        alert("您好！现在是" + hour + ":" + minu + "\r高宇的个人主页！"); //弹出提示对话框
+<table border="1"
+		  cellspacing="0px"
+		  style="margin:auto;"
+		  width="800px">
+		<tr height="50"  style="text-align: center;">
+			<td rowspan="2" >姓名</td>
+            <td rowspan="2" width="100">高宇</td>
+			<td width="100">性别</td>
+			<td width="100">男</td>
+			<td>文化程度</td>
+			<td width="100">本科</td>
+			<td  rowspan="3" width="120"><img src="1600667524326.jpg"></td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td>身高</td>
+			<td>176cm</td>
+			<td>政治面貌</td>
+			<td>共青团员</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td width="100">籍贯</td>
+			<td colspan="2">内蒙古</td>
+			<td>出生年月</td>
+			<td colspan="2">1998.11</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td>户口所在地</td>
+          <td colspan="2">内蒙古巴彦淖尔市</td>
+			<td>民族</td>
+			<td>汉族</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td>电话号码</td>
+			<td colspan="2">15590538659</td>
+			<td>现居住地址</td>
+			<td colspan="3">河北石家庄</td>
+		</tr>			
+		<tr height="50" style="text-align: center;">
+			<td>毕业院校</td>
+			<td colspan="3">石家庄铁道大学</td>
+			<td>毕业时间</td>
+			<td colspan="2">2021.06</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td>学习专业</td>
+			<td colspan="3">软件工程</td>
+			<td>爱好特长</td>
+			<td colspan="2">羽毛球</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td rowspan="2">个人简介</td>
+			<td colspan="6" rowspan="2">给我一个机会，还你一个惊喜</td>
+		<tr height="50" style="text-align: center;">			
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td>就学时间</td>
+			<td colspan="2">学校</td>
+			<td>学年</td>
+			<td>学历</td>
+			<td>专业</td>
+			<td>担任职务</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td>2017.09</td>
+			<td colspan="2">石家庄铁道大学</td>
+			<td>4年制</td>
+			<td>本科</td>
+			<td>软件工程</td>
+			<td>院学生会主席</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td>英语应用水平</td>
+			<td colspan="3">无</td>
+			<td>职业期望</td>
+			<td colspan="2">Java工程师，机器学习相关领域</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td>计算机应用水平</td>
+			<td colspan="3">计算机相关专业</td>
+			<td>待遇要求</td>
+			<td colspan="2">6k-8k</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td rowspan="4">竞赛及项目经历</td>	
+			<td colspan="6">2018年 9 月荣获社会工作单项奖学金</td>	
+		</tr>
+		<tr height="50" style="text-align: center;">	
+	<td colspan="6">2019年 7 月参加大学生创新创业项目并顺利结题</td>
+		</tr>
+		<tr height="50" style="text-align: center;">	
+			<td colspan="6">2019年 7 月荣获《随堂小考》微信小程序软件著作权</td>	
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td colspan="6">2019 年 12 月参加校级“东软杯”程序设计大赛并获得校级三等奖</td>
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td rowspan="4">社会实践工作经历</td>	
+			<td colspan="6">2018年参与为爱奔走六小时暨关爱贫困乡村儿童大型公益宣传劝募活动</td>	
+		</tr>
+		<tr height="50" style="text-align: center;">	
+			<td colspan="6">2019年7月担任院学生会主席</td>	
+		</tr>
+		<tr height="50" style="text-align: center;">
+			<td colspan="6">2019年9月参与信息学院迎新工作</td>
+		</tr>
+		<tr height="50" style="text-align: center;">	
+	<td colspan="6">2020年兼职淘宝网店客服</td>
+		</tr>
+</table>
+	
+	
+	
 
-        function realSysTime(){
-            var now=new Date();			//创建Date对象
-            var year=now.getFullYear();	//获取年份
-            var month=now.getMonth();	//获取月份
-            var date=now.getDate();		//获取日期
-            var day=now.getDay();		//获取星期
-            var hour=now.getHours();	//获取小时
-            var minu=now.getMinutes();	//获取分钟
-            var sec=now.getSeconds();	//获取秒钟
-            month=month+1;
-            var arr_week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
-            var week=arr_week[day];		//获取中文的星期
-            var time=year+"年"+month+"月"+date+"日 "+week+" "+hour+":"+minu+":"+sec;	//组合系统时间
-            clock.innerHTML="当前时间："+time;	//显示系统时间
-        }
-        window.onload=function(){
-            //window.setInterval(realSysTime,1000);	//实时获取并显示系统时间
-            window.setInterval("realSysTime()",1000);	//实时获取并显示系统时间
-        }
-    </script>
-
-    <link href="css/boke.css" rel="stylesheet">
-
-
-</head>
-<body>
-<header>
-    <div class="head" >
-
-        <h1 class="logo">gy的博客</h1>
-
-        <li><a href="index.html" target="_parent">网站首页</a> </li>
-
-        <li ><a href="about.html" target="_parent">关于我</a> </li>
-        <li><a href="inform.html">填写个人信息</a></li>
-        <li><a href="update.html">修改密码</a></li>
-        <li><a href="liuyan.html">留言</a></li>
-
-    </div >
-
-</header>
-
-    <div class="body">
-        <img src="image/banner02.jpg" alt="">
-    </div>
-    <div  id="clock" class="a2"></div>
-    <div class="a1" >
-        <img src="image/zd02.jpg" alt=""><br><br><br>
-
-
-        昵称：<a href="index.html">gy的博客</a><br>
-        加入时间：2019.2.21 <br>
-        粉丝：<a href="#">5</a> <br>
-        关注：<a href="#">6</a>  <br>
-
-    </div>
-
-
-
-
-
-
-</body>
-</html>
