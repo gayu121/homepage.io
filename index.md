@@ -62,46 +62,31 @@
 			<td>4年制</td>
 			<td>本科</td>
 			<td>软件工程</td>
-			<td>院学生会主席</td>
+			<td>心理委员</td>
 		</tr>
 		<tr height="50" style="text-align: center;">
-			<td>英语应用水平</td>
-			<td colspan="3">无</td>
+			<td>英语水平</td>
+			<td colspan="3">四级</td>
 			<td>职业期望</td>
-			<td colspan="2">Java工程师，机器学习相关领域</td>
+			<td colspan="2">Java工程师，大数据相关领域</td>
 		</tr>
 		<tr height="50" style="text-align: center;">
-			<td>计算机应用水平</td>
-			<td colspan="3">计算机相关专业</td>
+			<td>计算机等级</td>
+			<td colspan="3">软件工程</td>
 			<td>待遇要求</td>
 			<td colspan="2">6k-8k</td>
 		</tr>
 		<tr height="50" style="text-align: center;">
 			<td rowspan="4">竞赛及项目经历</td>	
-			<td colspan="6">2018年 9 月荣获社会工作单项奖学金</td>	
+			<td colspan="6">2019年 9 月荣获国家励志奖学金</td>	
 		</tr>
 		<tr height="50" style="text-align: center;">	
-	<td colspan="6">2019年 7 月参加大学生创新创业项目并顺利结题</td>
+	<td colspan="5">2018-2019第一学期二等奖学金</td>
 		</tr>
 		<tr height="50" style="text-align: center;">	
-			<td colspan="6">2019年 7 月荣获《随堂小考》微信小程序软件著作权</td>	
+			<td colspan="6">2019年 10月荣获《天码记账APP》软件著作权</td>	
 		</tr>
-		<tr height="50" style="text-align: center;">
-			<td colspan="6">2019 年 12 月参加校级“东软杯”程序设计大赛并获得校级三等奖</td>
-		</tr>
-		<tr height="50" style="text-align: center;">
-			<td rowspan="4">社会实践工作经历</td>	
-			<td colspan="6">2018年参与为爱奔走六小时暨关爱贫困乡村儿童大型公益宣传劝募活动</td>	
-		</tr>
-		<tr height="50" style="text-align: center;">	
-			<td colspan="6">2019年7月担任院学生会主席</td>	
-		</tr>
-		<tr height="50" style="text-align: center;">
-			<td colspan="6">2019年9月参与信息学院迎新工作</td>
-		</tr>
-		<tr height="50" style="text-align: center;">	
-	<td colspan="6">2020年兼职淘宝网店客服</td>
-		</tr>
+		
 </table>
 	
 	
