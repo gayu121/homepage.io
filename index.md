@@ -46,8 +46,7 @@
 			<td colspan="3">软件工程</td>
 			<td>爱好特长</td>
 			<td colspan="2">听音乐</td>
-		</tr>
-				
+		</tr>		
 		</tr>
 		<tr height="50" style="text-align: center;">
 			<td>就学时间</td>
